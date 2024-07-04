@@ -79,6 +79,7 @@ target/
 /data/
 /.venv/
 /models/
+/TEMP/
 
 # Mac OS-specific storage files
 .DS_Store
@@ -89,3 +90,8 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+
+
+# source
+https://www.youtube.com/watch?v=pxk1Fr33-L4&t=7886s&ab_channel=KrishNaik
