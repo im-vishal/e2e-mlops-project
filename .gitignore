@@ -80,6 +80,7 @@ target/
 /.venv/
 /models/
 /TEMP/
+/artifacts/
 
 # Mac OS-specific storage files
 .DS_Store

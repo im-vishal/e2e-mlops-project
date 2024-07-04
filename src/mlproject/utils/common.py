@@ -48,6 +48,7 @@ def create_directories(path_to_directories: list, verbose=True) -> None:
         Path(path).mkdir(parents=True, exist_ok=True)
         if verbose:
             logger.info(f"created directory at: {path}")
+    
 
 
 @ensure_annotations
