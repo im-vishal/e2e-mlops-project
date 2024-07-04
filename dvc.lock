@@ -13,3 +13,21 @@ stages:
       md5: cf213e68237a5a48a00ae1834dd84caa.dir
       size: 124280
       nfiles: 2
+  data_validation:
+    cmd: python src/mlproject/pipeline/stage_02_data_validation.py
+    deps:
+    - path: artifacts/data_ingestion
+      hash: md5
+      md5: cf213e68237a5a48a00ae1834dd84caa.dir
+      size: 124280
+      nfiles: 2
+    - path: src/mlproject/pipeline/stage_02_data_validation.py
+      hash: md5
+      md5: 328e92ed1a39469a9d35e6a5956a6941
+      size: 885
+    outs:
+    - path: artifacts/data_validation
+      hash: md5
+      md5: 0ccb3ea5849272ff03be5ab71786b9ff.dir
+      size: 23
+      nfiles: 1
