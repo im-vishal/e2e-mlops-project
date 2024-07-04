@@ -13,3 +13,10 @@ stages:
     - src/mlproject/pipeline/stage_02_data_validation.py
     outs:
     - artifacts/data_validation
+  data_transformation:
+    cmd: python src/mlproject/pipeline/stage_03_data_transformation.py
+    deps:
+    - artifacts/data_ingestion
+    - src/mlproject/pipeline/stage_03_data_transformation.py
+    outs:
+    - artifacts/data_transformation
