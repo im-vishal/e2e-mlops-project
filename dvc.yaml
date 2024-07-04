@@ -20,3 +20,13 @@ stages:
     - src/mlproject/pipeline/stage_03_data_transformation.py
     outs:
     - artifacts/data_transformation
+  model_trainer:
+    cmd: python src/mlproject/pipeline/stage_04_model_trainer.py
+    deps:
+    - artifacts/data_validation
+    - src/mlproject/pipeline/stage_04_model_trainer.py
+    params:
+    - ElasticNet.alpha
+    - ElasticNet.l1_ratio
+    outs:
+    - artifacts/model_trainer
