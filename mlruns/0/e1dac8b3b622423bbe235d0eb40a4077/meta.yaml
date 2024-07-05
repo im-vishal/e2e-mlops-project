@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/vishpand/Desktop/projects/e2e-mlops-project/mlruns/0/e1dac8b3b622423bbe235d0eb40a4077/artifacts
+end_time: 1720156033029
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1dac8b3b622423bbe235d0eb40a4077
+run_name: illustrious-gnat-86
+run_uuid: e1dac8b3b622423bbe235d0eb40a4077
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720156009676
+status: 3
+tags: []
+user_id: vishpand

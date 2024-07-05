@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/vishpand/Desktop/projects/e2e-mlops-project/mlruns/0/97c6597ab8b64f739fc5a7558b6872c2/artifacts
+end_time: 1720156009662
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 97c6597ab8b64f739fc5a7558b6872c2
+run_name: amusing-asp-243
+run_uuid: 97c6597ab8b64f739fc5a7558b6872c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720156009581
+status: 3
+tags: []
+user_id: vishpand

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/vishpand/Desktop/projects/e2e-mlops-project/mlruns/0/211af51ca8cc49fbb1701177edd46406/artifacts
+end_time: 1720155924793
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 211af51ca8cc49fbb1701177edd46406
+run_name: bittersweet-mule-782
+run_uuid: 211af51ca8cc49fbb1701177edd46406
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720155788714
+status: 3
+tags: []
+user_id: vishpand

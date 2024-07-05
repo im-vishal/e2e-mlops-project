@@ -30,3 +30,14 @@ stages:
     - ElasticNet.l1_ratio
     outs:
     - artifacts/model_trainer
+  model_evaluation:
+    cmd: python src/mlproject/pipeline/stage_05_model_evaluation.py
+    deps:
+    - artifacts/data_transformation
+    - artifacts/model_trainer
+    - src/mlproject/pipeline/stage_05_model_evaluation.py
+    params:
+    - ElasticNet.alpha
+    - ElasticNet.l1_ratio
+    outs:
+    - artifacts/model_evaluation
