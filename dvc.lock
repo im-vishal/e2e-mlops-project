@@ -63,12 +63,12 @@ stages:
       size: 861
     params:
       params.yaml:
-        ElasticNet.alpha: 0.9
-        ElasticNet.l1_ratio: 0.8
+        ElasticNet.alpha: 0.2
+        ElasticNet.l1_ratio: 0.1
     outs:
     - path: artifacts/model_trainer
       hash: md5
-      md5: c520ff562810721d91f51790b56ae3d9.dir
+      md5: 525ab6f6ea6d60c28950e1c2b344dfbc.dir
       size: 1263
       nfiles: 1
   model_evaluation:
@@ -81,7 +81,7 @@ stages:
       nfiles: 2
     - path: artifacts/model_trainer
       hash: md5
-      md5: c520ff562810721d91f51790b56ae3d9.dir
+      md5: 525ab6f6ea6d60c28950e1c2b344dfbc.dir
       size: 1263
       nfiles: 1
     - path: src/mlproject/pipeline/stage_05_model_evaluation.py
@@ -90,11 +90,11 @@ stages:
       size: 916
     params:
       params.yaml:
-        ElasticNet.alpha: 0.9
-        ElasticNet.l1_ratio: 0.8
+        ElasticNet.alpha: 0.2
+        ElasticNet.l1_ratio: 0.1
     outs:
     - path: artifacts/model_evaluation
       hash: md5
-      md5: 007f998e1cc104a691c7addbcddb96fc.dir
-      size: 97
+      md5: b8693194167e70600bbf4b1f3ccb52c7.dir
+      size: 98
       nfiles: 1
