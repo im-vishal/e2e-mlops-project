@@ -117,7 +117,7 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/im-vishal/e2e-mlops-project.mlflo
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI: 5823558662715.dkr.ecr.ap-south-1.amazonaws.com/mlproj
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -125,7 +125,7 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/im-vishal/e2e-mlops-project.mlflo
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
-	#optinal
+	#optional
 
 	sudo apt-get update -y
 
